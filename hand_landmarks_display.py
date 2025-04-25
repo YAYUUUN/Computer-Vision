@@ -10,13 +10,7 @@ mp_draw = mp.solutions.drawing_utils
 
 pygame.mixer.init()
 
-def play_sound(nombre):
-    nombre = nombre + ".mp3"
-    pygame.mixer.music.load(nombre)
-    pygame.mixer.music.play()
-
 vid = cv2.VideoCapture(0)
-
 
 # Start the hand gesture detection loop
 while vid.isOpened():
