@@ -19,7 +19,6 @@ def play_sound(nombre):
 
 vid = cv2.VideoCapture(0)
 
-
 # Start the hand gesture detection loop
 while vid.isOpened():
     # Read the frame from the webcam
